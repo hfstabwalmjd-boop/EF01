@@ -6,6 +6,7 @@ using System.Linq;
 
 namespace EF01
 {
+    #region Program
     internal class Program
     {
         static void Main(string[] args)
@@ -70,6 +71,7 @@ namespace EF01
                 Console.WriteLine("Books: " + db.Books.Count());
             }
         }
+    #endregion
     }
 }
 
